@@ -1,42 +1,49 @@
-# بُنيان — Bonyan Construction Marketplace Demo
+# بُنيان — Bonyan Demo v2
 
-Interactive Arabic RTL product concept for a Saudi construction-services marketplace.
+A high-fidelity Arabic RTL clickable product demo for a Saudi construction-services marketplace.
 
-## Concept
-**Standardize → Match → Price → Compare → Contract → Manage**
+## Product idea
+**Describe once → Standardize scope → Match qualified providers → Compare equivalent offers → Review contract & milestone payments → Manage the project through handover.**
 
-A customer describes a project once. The platform creates a standardized scope, checks provider eligibility, calculates demo pricing using provider-specific rules, compares equivalent offers, and demonstrates a path from quotation to contracting and project tracking.
+This version intentionally feels like a consumer Saudi startup product rather than a product-spec page.
 
-## Included scenarios
-- New villa
-- Turnkey villa
-- Design & permitting only
-- Execution with ready drawings/BOQ
-- Renovation
-- Additional floor/annex
-- Residential building
+## Experiences included
+- Consumer landing/home experience
+- Six entry journeys: new villa/turnkey, design, execution with ready drawings, renovation, additional floor/annex, residential building
+- 5-step guided onboarding wizard
+- Standardized project scope
+- Provider marketplace and richer provider profiles
+- Demo matching and provider-specific pricing
+- Full quotation modal
+- Contract review flow
+- Milestone payment plan
+- Change-order example
+- Post-contract customer project dashboard
+- Sophisticated 8-stage turnkey lifecycle
+- Responsive mobile/iPhone and desktop UI
 
-## Demo logic
-Engineering pricing uses configurable base packages, incremental built-area pricing and add-ons (BOQ, supervision, pool, basement, elevator, urgency). Construction estimates use provider-specific rates adjusted by finish level and complexity.
+## Pricing behavior
+The demo distinguishes:
+1. engineering pricing that can be semi-instant when the scope is standardized;
+2. preliminary construction estimates before final drawings/BOQ;
+3. more precise/final contractor pricing after drawings and BOQ review.
 
-**Important:** All provider names, prices, ratings, licence-like identifiers and commercial terms are fictional demo data. Construction estimates before final drawings/BOQ are explicitly presented as preliminary estimates, not binding quotations.
+All companies, project counts, ratings, prices, timelines, capacities, matching scores and commercial terms are **fictional demo data**.
 
-## Saudi workflow framing
-The demo is designed to orchestrate a customer journey around engineering offices, contractors, scope, quotations, contracts and project milestones. It does **not** claim to replace official municipal/regulatory processes. Production launch would require regulatory/legal review and integrations where appropriate.
-
-## Run
-Static HTML/CSS/JS. Open `index.html` locally or publish with GitHub Pages.
+## Regulatory framing
+Bonyan is presented as an orchestration/marketplace layer. It does not claim to replace official municipal, licensing, engineering-practice, insurance, code, or other government/regulatory processes. A production launch requires current legal/regulatory review and appropriate integrations.
 
 ## GitHub Pages
-Repository Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
+Static HTML/CSS/JS. Publish from:
+**Settings → Pages → Deploy from a branch → main → /(root)**
 
-Expected URL:
-`https://a81927788.github.io/bonyan-demo/`
+Expected public demo:
+https://a81927788.github.io/bonyan-demo/
 
 ## Files
-- `index.html` — product experience and all views
-- `styles.css` — responsive Arabic RTL UI
-- `app.js` — scenarios, pricing, matching, comparison and quote/contract interactions
-- `.nojekyll` — GitHub Pages static publishing helper
+- index.html
+- styles.css
+- app.js
+- .nojekyll
 
-Demo v1.0 — September 2026
+Demo v2 — September 2026
