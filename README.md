@@ -1,49 +1,24 @@
-# بُنيان — Bonyan Demo v2
+# بُنيان — Quick Engineering Quotes variant
 
-A high-fidelity Arabic RTL clickable product demo for a Saudi construction-services marketplace.
+This branch intentionally narrows the MVP to one proposition:
 
-## Product idea
-**Describe once → Standardize scope → Match qualified providers → Compare equivalent offers → Review contract & milestone payments → Manage the project through handover.**
+**Customer describes an engineering project once → receives quick comparable offers from engineering offices → compares → selects / requests contact.**
 
-This version intentionally feels like a consumer Saudi startup product rather than a product-spec page.
+No contractor marketplace, construction execution, project management, construction payments, or turnkey lifecycle in this variant.
 
-## Experiences included
-- Consumer landing/home experience
-- Six entry journeys: new villa/turnkey, design, execution with ready drawings, renovation, additional floor/annex, residential building
-- 5-step guided onboarding wizard
-- Standardized project scope
-- Provider marketplace and richer provider profiles
-- Demo matching and provider-specific pricing
-- Full quotation modal
-- Contract review flow
-- Milestone payment plan
-- Change-order example
-- Post-contract customer project dashboard
-- Sophisticated 8-stage turnkey lifecycle
-- Responsive mobile/iPhone and desktop UI
+## Why this variant exists
+The main branch contains the broader product vision. This `quick-quotes` branch tests a much narrower wedge inspired by comparison marketplaces: fast engineering-office quotations.
 
-## Pricing behavior
-The demo distinguishes:
-1. engineering pricing that can be semi-instant when the scope is standardized;
-2. preliminary construction estimates before final drawings/BOQ;
-3. more precise/final contractor pricing after drawings and BOQ review.
+## Demo examples
+Nine one-click examples are included: standard villa, small villa, larger villa with pool, duplex, small residential building, additional floor, architectural-only, urgent design, and basement/elevator.
 
-All companies, project counts, ratings, prices, timelines, capacities, matching scores and commercial terms are **fictional demo data**.
+## Demo pricing
+Four fictional engineering offices have different city coverage, project eligibility and pricing rules. Changing area, package or add-ons changes the calculated offers.
 
-## Regulatory framing
-Bonyan is presented as an orchestration/marketplace layer. It does not claim to replace official municipal, licensing, engineering-practice, insurance, code, or other government/regulatory processes. A production launch requires current legal/regulatory review and appropriate integrations.
+All names, prices, durations, scores and terms are fictional.
 
-## GitHub Pages
-Static HTML/CSS/JS. Publish from:
-**Settings → Pages → Deploy from a branch → main → /(root)**
+## Viewing both versions
+- `main` = broader/full product vision
+- `quick-quotes` = focused engineering-office quick-quote MVP
 
-Expected public demo:
-https://a81927788.github.io/bonyan-demo/
-
-## Files
-- index.html
-- styles.css
-- app.js
-- .nojekyll
-
-Demo v2 — September 2026
+To publish both simultaneously from one GitHub Pages branch, the focused variant can later be moved into a `/quick/` folder on `main`.
